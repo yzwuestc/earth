@@ -1,0 +1,4 @@
+INSERT INTO incident (name, description, create_time, update_time, deleted, status) VALUES
+                                                                                            ('Incident 1', 'Description for Incident 1', NOW(), NOW(), false, 'OPEN'),
+                                                                                            ( 'Incident 2', 'Description for Incident 2', NOW(), NOW(), false, 'CLOSED'),
+                                                                                            ( 'Incident 3', 'Description for Incident 3', NOW(), NOW(), false, 'IN_PROGRESS');
