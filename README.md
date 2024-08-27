@@ -29,18 +29,19 @@ This is a simple incident management application built with Spring Boot. It prov
     ```bash
     git clone https://github.com/yzwuestc/earth
     ```
-
-2. Build the project using Maven:
+2. Use terminal to run the project
+ 2.1 Build the project using Maven:
     ```bash
     cd earth
     mvn clean install
     ```
 
-3. Run the application:
+ 2.2 Run the application:
     ```bash
     java -jar target/earth.jar
     ```
-
+3. Use InteliJ IDEA to open the project and run the project
+   just open the project in InteliJ IDEA and run the project
 The application will start on port 8080 by default. You can access the API endpoints using a tool like Postman or curl.
 
 ## API Endpoints
