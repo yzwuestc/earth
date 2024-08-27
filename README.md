@@ -41,7 +41,10 @@ This is a simple incident management application built with Spring Boot. It prov
     ```
 ## Use IntelliJ IDEA to run the project
 1. Import the project from https://github.com/yzwuestc/earth
+   
 2. Click the run button to run this project
+   ![image](image/img.png)
+
 The application will start on port 8080 by default. You can access the API endpoints using a tool like Postman or curl.
 
 ## API Endpoints
