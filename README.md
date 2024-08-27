@@ -68,6 +68,8 @@ curl -X POST http://localhost:8080/incidents/update \
 ### List Incidents
 ```sh
 curl http://localhost:8080/incidents/list
+
+as this is a get request, you can also use the browser to access this endpoint
 ```
 
 # Docker Deployment (Optional)
