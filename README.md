@@ -27,18 +27,18 @@ This is a simple incident management application built with Spring Boot. It prov
 
 1. Clone the repository:
     ```bash
-    git clone <repository-url>
+    git clone https://github.com/yzwuestc/earth
     ```
 
 2. Build the project using Maven:
     ```bash
-    cd incident-management-app
+    cd earth
     mvn clean install
     ```
 
 3. Run the application:
     ```bash
-    java -jar target/incident-management-app.jar
+    java -jar target/earth.jar
     ```
 
 The application will start on port 8080 by default. You can access the API endpoints using a tool like Postman or curl.
@@ -69,11 +69,11 @@ curl http://localhost:8080/incidents/list
 # Docker Deployment (Optional)
 ## Build Docker Image
 ```sh
-docker build -t incident-management-app .
+docker build -t earth .
 ```
 ## Run the Docker container:
 ```sh
-docker run -p 8080:8080 incident-management-app
+docker run -p 8080:8080 earth
 ```
 
 # Unit Testing
