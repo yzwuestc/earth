@@ -27,7 +27,7 @@ This is a simple incident management application built with Spring Boot. It prov
 ## Use terminal to run the project
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yzwuestc/earth
+    git clone git@github.com:yzwuestc/earth.git
     ```
 
 2. Build the project using Maven:
@@ -40,8 +40,8 @@ This is a simple incident management application built with Spring Boot. It prov
     java -jar target/earth.jar
     ```
 ## Use IntelliJ IDEA to run the project
-1. Import the project from https://github.com/yzwuestc/earth
-   
+1. Import the project from this repository
+   ![image](image/img_1.png)
 2. Click the run button to run this project
    ![image](image/img.png)
 
