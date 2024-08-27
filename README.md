@@ -85,4 +85,5 @@ The project includes unit tests for the main components of the application. To r
 ```sh
 mvn test
 ```
+or use IntelliJ IDEA to run the test
 The tests cover various scenarios such as creating, modifying, and deleting incidents, as well as handling errors.
